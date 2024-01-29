@@ -1,0 +1,65 @@
+.wallpaper {
+    width: 85%;
+    margin: auto;
+    height: 130px;
+    display: block;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.content_layout {
+    display: flex;
+    justify-content: center;
+}
+
+.icon_site {
+    top: 4px;
+    color: #ff437b;
+    font-size: 35px;
+    position: relative;
+    transition: ease-out 0.3s;
+}
+
+.title_site {
+    width: 30%;
+    height: 30%;
+    font-size: 40px;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.li_nav {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.icons_link {
+    top: 5px;
+    right: 0.9%;
+    font-size: 30px;
+    position: relative;
+    transition: ease-out 0.3s;
+}
+
+.icons_link:hover {
+    filter: blur(5%);
+    text-shadow: 2px 3px rgb(0, 0, 0);
+}
+
+.bthLink {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: ease-out 0.3s;
+}
+
+.bthLink:hover {
+    color: #ffccdb;
+    filter: blur(5%);
+    text-shadow: 2px 3px rgb(0, 0, 0);
+}
