@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Outlet } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import styles from "../components-css/layout.module.css"
 import { BiFoodMenu, BiHomeAlt2, BiInfoCircle, BiRestaurant, BiSolidUserAccount } from "react-icons/bi";
 
@@ -44,9 +44,9 @@ export function Layout() {
                 ))}
 
                 <ul className={styles.nav_list}>
-                    {listBth.map((listBth) =>(
+                    {listBth.map((listBth) => (
                         <li className={styles.li_nav} key={listBth.bthLink}>
-                            <a href={listBth.bthLink} className={styles.bthLink}><i className={styles.icons_link}>{listBth.icon_link}</i>{listBth.link_name}</a>
+                            <Link to={listBth.bthLink} className={styles.bthLink}><i className={styles.icons_link}>{listBth.icon_link}</i>{listBth.link_name}</Link>
                         </li>
                     ))}
 

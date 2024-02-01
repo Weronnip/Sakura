@@ -1,7 +1,8 @@
 .block__info__error {
-    width: 50%;
-    height: 40%;
+    width: 70%;
+    height: 95%;
     margin: auto;
+    border-radius: 25px;
     background-color: white;
 }
 
@@ -14,5 +15,17 @@
 .text__error {
     color: brown;
     font-size: 25px;
+    font-weight: 600;
     text-align: center;
+}
+
+.error__bth {
+    color: brown;
+    text-decoration: none;
+    transition: ease-out 0.3s;
+}
+
+.error__bth:hover {
+    color: #ff437b;
+    text-shadow: 2px 2px black;
 }

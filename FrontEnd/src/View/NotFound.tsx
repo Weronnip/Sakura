@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./css/notfound.module.css"
 
 export function NotFound() {
@@ -10,7 +11,7 @@ export function NotFound() {
     const notFound:ErrorPage[] = [
         {
             title_error: 'Oops...',
-            text_error: 'There is no such page, go back to the home page'
+            text_error: 'There is no such page, go back to the '
         }
     ]
 
@@ -20,7 +21,7 @@ export function NotFound() {
                 <h3 className={styles.title__error}>{notFound.title_error}</h3>
             ))}
             {notFound.map((notFound) => (
-                <p className={styles.text__error}>{notFound.text_error}</p>
+                <p className={styles.text__error}>{notFound.text_error}<Link to="/" className={styles.error__bth}>home page</Link></p>
             ))}
         </div>
     )
