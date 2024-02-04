@@ -1,0 +1,22 @@
+.main__content {
+    width: 70%;
+    height: 300%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.profile__content {
+    display: flex;
+    justify-content: center;
+}
+
+.profile__img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-top: 20px;
+    filter: drop-shadow(2px 2px black);
+    border-radius: 360px;
+}
