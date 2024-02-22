@@ -40,7 +40,9 @@ export function Layout() {
             <div className={styles.content_layout}>
                 
                 {info.map((info) => (
-                    <h3 className={styles.title_site} key={info.Name_Site}><i className={styles.icon_site}>{info.Icon_Site}</i> {info.Name_Site}</h3>
+                    <h3 className={styles.title_site} key={info.Name_Site}>
+                        <i className={styles.icon_site}>
+                        {info.Icon_Site}</i> {info.Name_Site}</h3>
                 ))}
 
                 <ul className={styles.nav_list}>

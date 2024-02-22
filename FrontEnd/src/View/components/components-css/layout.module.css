@@ -14,7 +14,7 @@
 
 .icon_site {
     top: 4px;
-    color: #ff437b;
+    color: #61575a;
     font-size: 35px;
     position: relative;
     transition: ease-out 0.3s;
@@ -45,10 +45,6 @@
     transition: ease-out 0.3s;
 }
 
-.icons_link:hover {
-    filter: blur(5%);
-    text-shadow: 2px 3px rgb(0, 0, 0);
-}
 
 .bthLink {
     color: black;
@@ -59,7 +55,5 @@
 }
 
 .bthLink:hover {
-    color: #ffccdb;
-    filter: blur(5%);
-    text-shadow: 2px 3px rgb(0, 0, 0);
+    color: #ff3a3a;
 }

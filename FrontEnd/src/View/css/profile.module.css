@@ -17,6 +17,28 @@
     height: 200px;
     display: block;
     margin-top: 20px;
-    filter: drop-shadow(2px 2px black);
+    border: 2px solid black;
     border-radius: 360px;
+}
+
+.user__content {
+    display: flex;
+    height: 20px;
+    width: 150px;
+    margin-top: 190px;
+    justify-content: center;
+}
+
+.user__name {
+    text-align: center;
+    font-size: 30px;
+}
+
+.user__menu {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    justify-content: space-between;
 }

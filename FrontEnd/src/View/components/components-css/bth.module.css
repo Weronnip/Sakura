@@ -1,0 +1,37 @@
+.list__menu {
+    width: 100px;
+    right: 310px;
+    display: flex;
+    position: absolute;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.list__bth {
+    margin-top: 30px;
+}
+
+.link__bth {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    transition: ease-out 0.3s;
+    text-decoration: none;
+}
+
+.link__bth:hover {
+    color: #ff3a3a;
+}
+
+
+.icon_link {
+    top: 4.5px;
+    right: 0.9%;
+    position: relative;
+    transition: ease-out 0.3s;
+}
+
+.icon_link:hover {
+    filter: blur(5%);
+    text-shadow: 2px 3px rgb(0, 0, 0);
+}
