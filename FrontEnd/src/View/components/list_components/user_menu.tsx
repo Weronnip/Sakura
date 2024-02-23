@@ -1,4 +1,4 @@
-import styles from "../components-css/bth.module.css";
+import styles from "./bth.module.css";
 import { BiBasket, BiEdit, BiExit, BiMenu } from "react-icons/bi";
 import { IoSettings } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -13,12 +13,12 @@ function UserMenu() {
 
   const bth_link: information_bth[] = [
     {
-    link_name: "setting",
+    link_name: "Setting",
     link_url: "/profile/user/:id/setting",
     link_icon: <IoSettings className={styles.icon_link} />,
     },
     {
-      link_name: "history",
+      link_name: "History",
       link_url: "/profile/user/:id/history",
       link_icon: <BiMenu className={styles.icon_link} />
     },

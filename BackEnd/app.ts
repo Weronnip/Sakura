@@ -24,6 +24,10 @@ function method_get() {
         app.get('/', (req, res) => {
             res.send('Hello World!');
         }),
+
+        app.get('/test', (req, res) => {
+            res.send('Hello');
+        }),
     
         app.get('/api/menu_foods', async (req, res) => {
             const menuFood = await db.select().from(MenuFood);

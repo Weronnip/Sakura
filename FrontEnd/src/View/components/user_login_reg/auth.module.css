@@ -1,0 +1,66 @@
+/* login */
+.wallpaper {
+    margin: auto;
+    width: 450px;
+    height: 500px;
+    margin-top: 3%;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.user_input_data {
+    width: 450px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.title__window {
+    top: 20px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.horizontal__line {
+    top: 10px;
+    width: 95%;
+    height: 8px;
+    border: none;
+    position: relative;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.form__auth {
+    margin: auto;
+    height: 340px;
+}
+
+.label__Input {
+    top: 3px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.input_data {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid;
+    border-radius: 9px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    transition: ease-out 0.3s;
+    background-color: #0000;
+}
+
+.input_data:focus {
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 25px;
+}

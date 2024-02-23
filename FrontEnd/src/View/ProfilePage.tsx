@@ -1,8 +1,7 @@
-import { UserMenu } from "./components/bth_components/user_menu.tsx"
+import { UserMenu } from "./components/list_components/user_menu.tsx"
 import styles from "./css/profile.module.css"
 
 export function ProfilePage() {
-
     return (
         <>
             <div className={styles.main__content}>

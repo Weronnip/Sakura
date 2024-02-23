@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
-import { Link, Outlet } from "react-router-dom"
-import styles from "../components-css/layout.module.css"
 import { BiFoodMenu, BiHomeAlt2, BiInfoCircle, BiRestaurant, BiSolidUserAccount } from "react-icons/bi";
+import { Link, Outlet } from "react-router-dom"
+import styles from  "./layout.module.css"
+import { ReactNode } from "react";
 
 
 // Menu website

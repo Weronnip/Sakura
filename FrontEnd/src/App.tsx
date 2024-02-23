@@ -10,6 +10,7 @@ import { HomePage } from "./View/HomePage";
 import { AboutPage } from "./View/AboutPage";
 import { ProfilePage } from "./View/ProfilePage";
 import { PersonalPage } from "./View/PersonalPage";
+import { UserLogin } from "./View/components/user_login_reg/user_login";
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
             <Route path="home" element={<HomePage />}/>
             <Route path="menu" element={<MenuPage/>}/>
             <Route path="about" element={<AboutPage/>}/>
-            <Route path="profile" element={<ProfilePage/>}/>
+            <Route path="profile" element={<UserLogin/>}/>
+            <Route path="profile/{:id}" element={<ProfilePage/>}/>
             <Route path="personal" element={<PersonalPage/>}/>
             <Route path="*" element={<NotFound/>}/>
         </Route>
