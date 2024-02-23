@@ -34,6 +34,11 @@ function method_get() {
             res.json(menuFood);
         }),
 
+        app.get('/api/menu_foods/:id', async (req, res) => {
+            const menuFood = await db.select().from(MenuFood);
+            res.json(menuFood);
+        }),
+
         app.get('/api/user_role', async (req, res) => {
             const userRole = await db.select().from(UserRole);
             res.json(userRole);
