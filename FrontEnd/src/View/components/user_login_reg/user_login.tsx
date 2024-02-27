@@ -17,7 +17,7 @@ export function UserLogin() {
 
     return (
         <div className={styles.wallpaper}>
-            <h2 className={styles.title__window}>Login / Registration</h2>
+            <h2 className={styles.title__window}>Authorization</h2>
                 <hr className={styles.horizontal__line}/>
                 <div className={styles.user_input_data}>
                     <form action="" method="post">
