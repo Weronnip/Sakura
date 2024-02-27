@@ -1,7 +1,7 @@
-import styles from "./bth.module.css";
 import { BiBasket, BiEdit, BiExit, BiMenu } from "react-icons/bi";
 import { IoSettings } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import styles from "./bth.module.css";
 import { ReactNode } from "react";
 
 function UserMenu() {

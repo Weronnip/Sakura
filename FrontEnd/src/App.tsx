@@ -23,7 +23,7 @@ function App() {
             <Route path="menu" element={<MenuPage/>}/>
             <Route path="about" element={<AboutPage/>}/>
             <Route path="profile" element={<UserLogin/>}/>
-            <Route path="profile/{:id}" element={<ProfilePage/>}/>
+            <Route path="profile/:id" element={<ProfilePage/>}/>
             <Route path="personal" element={<PersonalPage/>}/>
             <Route path="*" element={<NotFound/>}/>
         </Route>

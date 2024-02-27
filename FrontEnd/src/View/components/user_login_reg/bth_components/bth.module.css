@@ -1,0 +1,28 @@
+.wallpaper {
+    width: auto;
+    margin: auto;
+    height: 50px;
+}
+
+.grid__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bth__auth {
+    width: 105px;
+    height: 40px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: ease-out 0.4s;
+    background-color: #2f353b;
+}
+
+.bth__auth:hover {
+    border-radius: 15px;
+    background-color: yellowgreen;
+}

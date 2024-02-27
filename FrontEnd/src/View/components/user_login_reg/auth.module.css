@@ -12,6 +12,7 @@
     width: 450px;
     height: 500px;
     display: flex;
+    margin-top: 50px;
     justify-content: center;
 }
 
