@@ -10,7 +10,7 @@ import { HomePage } from "./View/HomePage";
 import { AboutPage } from "./View/AboutPage";
 import { ProfilePage } from "./View/ProfilePage";
 import { PersonalPage } from "./View/PersonalPage";
-import { UserLogin } from "./View/components/user_login_reg/user_login";
+import { UserLogin } from "./View/components/user_login_reg/AuthPage";
 
 
 function App() {
