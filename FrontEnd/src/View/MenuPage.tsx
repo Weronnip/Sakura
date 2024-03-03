@@ -1,9 +1,12 @@
+import { FilterBlock } from "./components/filter_component/filterComponent"
+import { MenuFood } from "./components/food_componets/MenuComponent"
+import styles from "./css/menu.module.css"
 
 export function MenuPage() {
-    
     return (
-        <>
-            <h3>Hello, Menu</h3>
-        </>
+        <div className={styles.wallpaper}>
+            <FilterBlock />
+            <MenuFood />
+        </div>
     )
 }

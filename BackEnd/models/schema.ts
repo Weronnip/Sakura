@@ -18,6 +18,7 @@ export const MenuFood = mysqlTable('menu_food', {
     .references(() => ViewFood.id_view)
     .notNull(),
   number_foods: int('number_foods'),
+  image_food: varchar('image_food', {length: 500}),
   name_food: varchar('name_food', {length: 45}),
   about_food: varchar('about_food', {length: 450}),
   price: int('price'),
