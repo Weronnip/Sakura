@@ -40,6 +40,7 @@
   -o-animation: spinner 1500ms infinite linear;
   animation: spinner 1500ms infinite linear;
   border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0,;
   -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0,
     rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0,
     rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0,
@@ -124,17 +125,24 @@
     height: 550px;
     display: block;
     margin-top: 60px;
-    border-radius: 25px;
-    border: 2px solid black;
+    padding: 10px 10px;
+    transition: ease-out 0.3s;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.562);
+}
+
+.block__food:hover {
+  padding: 15px 10px;
+  border-radius: 25px;
+  box-shadow: 15px 10px 15px 10px rgba(0, 0, 0, 0.473);
 }
 
 .image_food {
+  top: 25px;
   margin: auto;
   width: 250px;
   height: 250px;
   display: block;
-  margin-top: 15px;
-  border-radius: 40px;
+  border-radius: 30px;
 }
 
 .title_food {
@@ -146,9 +154,10 @@
 .about_food {
   margin: auto;
   width: 350px;
-  height: 150px;
+  height: 120px;
   text-align: justify;
   border-radius: 25px;
+  transition: ease-in-out 0.1s;
   background-color: #43f3b8;
 }
 
@@ -158,22 +167,32 @@
   display: block;
   font-size: 20px;
   font-weight: 600;
+  transition: ease-out 0.1s;
+}
+
+.about_food, .about:hover{
+  height: 140px;
+  font-size: 22px;
+  font-weight: 900;
+  padding: 5px 15px;
 }
 
 .bth_price {
-  width: 120px;
-  height: 30px;
+  width: 140px;
+  height: 40px;
   margin: auto;
-  margin-top: 5px;
   color: white;
   display: block;
-  font-size: 22px;
+  margin-top: 5px;
+  font-size: 20px;
   border: 2px solid;
+  border-radius: 5px;
   transition: ease-out 0.3s;
   background-color: black;
 }
 
 .bth_price:hover {
-  border-radius: 25px;
+  border-radius: 10px;
   background-color: yellowgreen;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.473);
 }

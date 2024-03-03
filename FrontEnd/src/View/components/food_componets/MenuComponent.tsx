@@ -1,13 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import {
-  QueryClient,
-  QueryClientProvider,
-  useQuery,
-} from "@tanstack/react-query";
-
+import { QueryClient, QueryClientProvider, useQuery } from "@tanstack/react-query";
 import styles from "./menu_style.module.css";
 
 const queryClient = new QueryClient();
+
 function MenuFood() {
   return (
     <>
@@ -46,7 +42,7 @@ function GetAllFood() {
         <aside className={styles.about}>{data.about_food}</aside>
       </p>
       <button type="submit" className={styles.bth_price}>
-        {data.price}₽
+        Buy: {data.price}₽
       </button>
     </div>
   ));
