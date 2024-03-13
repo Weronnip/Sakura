@@ -8,7 +8,7 @@ function LoginBth() {
     
     const login:bthLogin[] = [
         {
-            nameLogin: 'Login',
+            nameLogin: 'Войти',
             urlLogin: '/profile/login',
         }
     ]
@@ -32,7 +32,7 @@ export function RegistrationBth() {
     
     const reg:bthReg[] = [
         {
-            nameReg: 'Registration',
+            nameReg: 'Регистрация',
             urlReg: '/profile/registration',
         }
     ]

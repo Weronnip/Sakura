@@ -11,6 +11,7 @@ import { AboutPage } from "./View/AboutPage";
 import { ProfilePage } from "./View/ProfilePage";
 import { PersonalPage } from "./View/PersonalPage";
 import { UserLogin } from "./View/components/auth_components/AuthPage";
+import { AdminPanel } from "./View/components/admin_components/admin_panel";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="profile" element={<UserLogin/>}/>
             <Route path="profile/:id" element={<ProfilePage/>}/>
             <Route path="personal" element={<PersonalPage/>}/>
+            <Route path="admin" element={<AdminPanel/>}/>
             <Route path="*" element={<NotFound/>}/>
         </Route>
     </Routes>

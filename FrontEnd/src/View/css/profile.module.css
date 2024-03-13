@@ -13,25 +13,26 @@
 }
 
 .profile__img {
+    margin: auto;
     width: 200px;
     height: 200px;
     display: block;
     margin-top: 20px;
-    border: 2px solid black;
     border-radius: 360px;
+    border: 2px solid black;
 }
 
 .user__content {
-    display: flex;
     height: 20px;
     width: 150px;
+    display: flex;
     margin-top: 190px;
     justify-content: center;
 }
 
 .user__name {
-    text-align: center;
     font-size: 30px;
+    text-align: center;
 }
 
 .user__menu {

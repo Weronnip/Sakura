@@ -10,8 +10,8 @@ export function UserLogin() {
 
     const nameLabel: windowLogin[] = [
         { 
-            nameEmail: "Email: ", 
-            namePassword: "Password: "
+            nameEmail: "Почта: ", 
+            namePassword: "Пароль: "
         }
     ]
 

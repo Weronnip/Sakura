@@ -6,7 +6,7 @@ export function MenuPage() {
     return (
         <div className={styles.wallpaper}>
             <FilterBlock />
-            <MenuFood />
+            <MenuFood /> 
         </div>
     )
 }

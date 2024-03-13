@@ -42,7 +42,7 @@ function GetAllFood() {
         <aside className={styles.about}>{data.about_food}</aside>
       </p>
       <button type="submit" className={styles.bth_price}>
-        Buy: {data.price}₽
+        Купить: {data.price}₽
       </button>
     </div>
   ));

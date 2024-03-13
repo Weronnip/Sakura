@@ -1,0 +1,28 @@
+.wallpaper {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.title_block {
+    font-size: 35px;
+    text-align: center;
+}
+
+.add_menu {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input_data {
+    width: 200px;
+    height: 25px;
+    display: flex;
+    margin-top: 15px;
+}

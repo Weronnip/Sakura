@@ -120,14 +120,18 @@
 }
 
 .block__food {
-    width: 400px;
-    margin: auto;
-    height: 550px;
-    display: block;
-    margin-top: 60px;
-    padding: 10px 10px;
-    transition: ease-out 0.3s;
-    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.562);
+  margin: auto;
+  margin-top: 60px;
+  max-width: 430px;
+  max-height: 560px;
+  padding: 10px 10px;
+  transition: ease-out 0.3s;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.562);
+}
+
+.FoodMenu {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .block__food:hover {
@@ -135,6 +139,7 @@
   border-radius: 25px;
   box-shadow: 15px 10px 15px 10px rgba(0, 0, 0, 0.473);
 }
+
 
 .image_food {
   top: 25px;
@@ -154,7 +159,7 @@
 .about_food {
   margin: auto;
   width: 350px;
-  height: 120px;
+  height: 200px;
   text-align: justify;
   border-radius: 25px;
   transition: ease-in-out 0.1s;
@@ -165,16 +170,8 @@
   margin: auto;
   width: 300px;
   display: block;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
-  transition: ease-out 0.1s;
-}
-
-.about_food, .about:hover{
-  height: 140px;
-  font-size: 22px;
-  font-weight: 900;
-  padding: 5px 15px;
 }
 
 .bth_price {

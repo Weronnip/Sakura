@@ -1,9 +1,9 @@
 .wallpaper {
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 25px;
     min-height: 800px;
-    max-height: 1500px;
+    height: 1600px;
     border-radius: 25px;
     background-color: white;
 }

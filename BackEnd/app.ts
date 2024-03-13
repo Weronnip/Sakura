@@ -81,9 +81,19 @@ function method_get() {
     )
 }
 
+function method_post() {
+    return (
+        app.post('/api/new_foods', async (req, res) => {
+            await db.insert(MenuFood).values(req.body)
+            res.send('Okay!')
+        })
+    );
+}
+
 function server() {
 
     method_get();
+    method_post();
 
     try {
         app.listen(port, () => {

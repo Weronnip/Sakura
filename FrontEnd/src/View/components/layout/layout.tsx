@@ -28,10 +28,10 @@ export function Layout() {
     ]
 
     const listBth: bth_Link[] = [
-        { link_name: 'Home', icon_link: <BiHomeAlt2/>, bthLink: '/home' },
-        { link_name: 'Menu', icon_link: <BiFoodMenu/>, bthLink: '/menu' },
-        { link_name: 'About', icon_link: <BiInfoCircle/>, bthLink: '/about' },
-        { link_name: 'Profile', icon_link: <BiSolidUserAccount/>, bthLink: '/profile' },
+        { link_name: 'Главная', icon_link: <BiHomeAlt2/>, bthLink: '/home' },
+        { link_name: 'Меню', icon_link: <BiFoodMenu/>, bthLink: '/menu' },
+        { link_name: 'О нас', icon_link: <BiInfoCircle/>, bthLink: '/about' },
+        { link_name: 'Профиль', icon_link: <BiSolidUserAccount/>, bthLink: '/profile' },
     ]
 
     return (

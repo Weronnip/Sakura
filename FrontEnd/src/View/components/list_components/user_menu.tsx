@@ -13,27 +13,27 @@ function UserMenu() {
 
   const bth_link: information_bth[] = [
     {
-    link_name: "Setting",
+    link_name: "Настройки",
     link_url: "/profile/user/:id/setting",
     link_icon: <IoSettings className={styles.icon_link} />,
     },
     {
-      link_name: "History",
+      link_name: "История",
       link_url: "/profile/user/:id/history",
       link_icon: <BiMenu className={styles.icon_link} />
     },
     {
-      link_name: "Order",
+      link_name: "Заказы",
       link_url: "/profile/user/:id/basket",
       link_icon: <BiBasket className={styles.icon_link} />,
     },
     {
-      link_name: "Edit",
+      link_name: "Изменить",
       link_url: "/profile/user:/id/edit_user",
       link_icon: <BiEdit className={styles.icon_link} />,
     },
     {
-      link_name: "Exit",
+      link_name: "Выход",
       link_url: "/profile/user:/id/exit",
       link_icon: <BiExit className={styles.icon_link}/>
     }
